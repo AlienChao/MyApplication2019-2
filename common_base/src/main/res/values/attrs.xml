@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+
+
+    <declare-styleable name="CircularProgressDrawable" tools:ignore="ResourceName">
+        <attr name="cpd_padding" format="reference|dimension"/>
+        <attr name="cpd_initialAngle" format="reference|integer"/>
+        <attr name="cpd_maxSweepAngle" format="reference|integer"/>
+        <attr name="cpd_minSweepAngle" format="reference|integer"/>
+        <attr name="cpd_strokeSize" format="reference|dimension"/>
+        <attr name="cpd_strokeColor" format="reference|color"/>
+        <attr name="cpd_strokeSecondaryColor" format="reference|color"/>
+        <attr name="cpd_strokeColors" format="reference"/>
+        <attr name="cpd_reverse" format="boolean"/>
+        <attr name="cpd_rotateDuration" format="reference|integer"/>
+        <attr name="cpd_transformDuration" format="reference|integer"/>
+        <attr name="cpd_keepDuration" format="reference|integer"/>
+        <attr name="cpd_transformInterpolator" format="reference"/>
+        <attr name="cpd_inAnimDuration" format="reference|integer"/>
+        <attr name="cpd_outAnimDuration" format="reference|integer"/>
+        <attr name="cpd_inStepColors" format="reference"/>
+        <attr name="cpd_inStepPercent" format="float"/>
+        <attr name="pv_progressMode"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="CountDown">
+        <attr name="isShowDrawable" format="boolean"/>
+        <attr name="totalTime" format="integer"/>
+        <attr name="hintStrColor" format="string"/>
+        <attr name="hintStr" format="string"/>
+
+        <attr name="sex" format="enum">
+            <enum name="man" value="0"/>
+            <enum name="woman" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+    <declare-styleable name="PublicTitleBar">
+        <attr name="publicTitle" format="string"/>
+
+        <attr name="publicIvRight" format="enum">
+            <enum name="man" value="0"/>
+            <enum name="woman" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>
